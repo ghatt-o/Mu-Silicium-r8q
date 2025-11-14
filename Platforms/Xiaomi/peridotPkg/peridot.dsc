@@ -17,7 +17,7 @@
 ################################################################################
 [Defines]
   PLATFORM_NAME                  = peridot
-  PLATFORM_GUID                  = A685386-EDF8-44EC-966E-B14635B6DB08
+  PLATFORM_GUID                  = 24A485CE-6DF5-476A-9F91-5312E0B766A1
   PLATFORM_VERSION               = 0.1
   DSC_SPECIFICATION              = 0x00010005
   OUTPUT_DIRECTORY               = Build/peridotPkg
@@ -26,16 +26,12 @@
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = peridotPkg/peridot.fdf
   USE_CUSTOM_DISPLAY_DRIVER      = 0
-  HAS_BUILD_IN_KEYBOARD          = 0
 
   #
   # 0 = SM8635
   # 1 = SM7675
   #
-  SOC_TYPE                       = 0
-
-[BuildOptions]
-  *_*_*_CC_FLAGS = -DHAS_BUILD_IN_KEYBOARD=$(HAS_BUILD_IN_KEYBOARD) -DUSE_CUSTOM_DISPLAY_DRIVER=$(USE_CUSTOM_DISPLAY_DRIVER) 
+  SOC_TYPE                       = 0 
 
 [PcdsFixedAtBuild]
   # DDR Start Address
@@ -45,6 +41,9 @@
   gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0xA760D000
   gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|0x00040000
 
+  # Device GUID
+  gSiliciumPkgTokenSpaceGuid.PcdDeviceGuid|{ 0xCE, 0x85, 0xA4, 0x24, 0xF5, 0x6D, 0x6A, 0x47, 0x9F, 0x91, 0x53, 0x12, 0xE0, 0xB7, 0x66, 0xA1 }
+
   # SmBios
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemManufacturer|"Xiaomi"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Poco F6"
@@ -53,9 +52,9 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"Poco F6"
 
   # Simple Frame Buffer
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferWidth|1220
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferHeight|2712
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferColorDepth|32
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|1220
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|2712
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferColorDepth|32
 
   # Platform Pei
   gQcomPkgTokenSpaceGuid.PcdPlatformType|"LA"
@@ -63,21 +62,14 @@
   gQcomPkgTokenSpaceGuid.PcdDtbExtensionAddr|0xA703F0E8
 
   # Dynamic RAM Start Address
-  gQcomPkgTokenSpaceGuid.PcdRamPartitionBase|0xE6440000
+  gSiliciumPkgTokenSpaceGuid.PcdRamPartitionBase|0xE6440000
 
   # SD Card Slot
   gQcomPkgTokenSpaceGuid.PcdInitCardSlot|FALSE
 
-  # USB Controller
-  gQcomPkgTokenSpaceGuid.PcdStartUsbController|TRUE
-
 [LibraryClasses]
-  DeviceMemoryMapLib|peridotPkg/Library/DeviceMemoryMapLib/DeviceMemoryMapLib.inf
-  DeviceConfigurationMapLib|peridotPkg/Library/DeviceConfigurationMapLib/DeviceConfigurationMapLib.inf
-  DeviceGuidLib|peridotPkg/Library/DeviceGuidLib/DeviceGuidLib.inf
+  MemoryMapLib|peridotPkg/Library/MemoryMapLib/MemoryMapLib.inf
+  ConfigurationMapLib|peridotPkg/Library/ConfigurationMapLib/ConfigurationMapLib.inf
   AcpiDeviceUpdateLib|SiliciumPkg/Library/AcpiDeviceUpdateLibNull/AcpiDeviceUpdateLibNull.inf
-
-[Components]
-  QcomPkg/Drivers/XblDeviceTreeDxe/XblDeviceTreeDxe.inf
 
 !include PalawanPkg/PalawanPkg.dsc.inc

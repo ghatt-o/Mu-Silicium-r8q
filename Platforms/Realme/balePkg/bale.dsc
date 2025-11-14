@@ -26,16 +26,12 @@
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = balePkg/bale.fdf
   USE_CUSTOM_DISPLAY_DRIVER      = 0
-  HAS_BUILD_IN_KEYBOARD          = 0
 
   #
   # 0 = SM8635
   # 1 = SM7675
   #
   SOC_TYPE                       = 0
-
-[BuildOptions]
-  *_*_*_CC_FLAGS = -DHAS_BUILD_IN_KEYBOARD=$(HAS_BUILD_IN_KEYBOARD) -DUSE_CUSTOM_DISPLAY_DRIVER=$(USE_CUSTOM_DISPLAY_DRIVER)
 
 [PcdsFixedAtBuild]
   # DDR Start Address
@@ -45,9 +41,12 @@
   gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0xA760D000
   gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|0x00040000
 
+  # Device GUID
+  gSiliciumPkgTokenSpaceGuid.PcdDeviceGuid|{ 0x78, 0x1B, 0x02, 0x6F, 0xAE, 0x8D, 0x4D, 0x47, 0x9B, 0x43, 0x5E, 0x24, 0x12, 0xA7, 0x6E, 0x32 }
+
   # SmBios
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemManufacturer|"Realme"
-  !if $(DEVICE_MODEL) == 0
+!if $(DEVICE_MODEL) == 0
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"GT Neo6"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"bale"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"RMX3852"
@@ -62,9 +61,9 @@
 !endif
 
   # Simple Frame Buffer
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferWidth|1264
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferHeight|2780
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferColorDepth|32
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|1264
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|2780
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferColorDepth|32
 
   # Platform Pei
   gQcomPkgTokenSpaceGuid.PcdPlatformType|"LA"
@@ -72,21 +71,14 @@
   gQcomPkgTokenSpaceGuid.PcdDtbExtensionAddr|0xA703F0E8
 
   # Dynamic RAM Start Address
-  gQcomPkgTokenSpaceGuid.PcdRamPartitionBase|0xE6740000
+  gSiliciumPkgTokenSpaceGuid.PcdRamPartitionBase|0xE6740000
 
   # SD Card Slot
   gQcomPkgTokenSpaceGuid.PcdInitCardSlot|FALSE
 
-  # USB Controller
-  gQcomPkgTokenSpaceGuid.PcdStartUsbController|TRUE
-
 [LibraryClasses]
-  DeviceMemoryMapLib|balePkg/Library/DeviceMemoryMapLib/DeviceMemoryMapLib.inf
-  DeviceConfigurationMapLib|balePkg/Library/DeviceConfigurationMapLib/DeviceConfigurationMapLib.inf
-  DeviceGuidLib|balePkg/Library/DeviceGuidLib/DeviceGuidLib.inf
+  MemoryMapLib|balePkg/Library/MemoryMapLib/MemoryMapLib.inf
+  ConfigurationMapLib|balePkg/Library/ConfigurationMapLib/ConfigurationMapLib.inf
   AcpiDeviceUpdateLib|SiliciumPkg/Library/AcpiDeviceUpdateLibNull/AcpiDeviceUpdateLibNull.inf
-
-[Components]
-  QcomPkg/Drivers/XblDeviceTreeDxe/XblDeviceTreeDxe.inf
 
 !include PalawanPkg/PalawanPkg.dsc.inc

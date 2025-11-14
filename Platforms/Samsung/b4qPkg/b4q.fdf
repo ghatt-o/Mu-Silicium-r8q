@@ -82,7 +82,6 @@ READ_LOCK_STATUS   = TRUE
   !include Include/APRIORI.inc
   !include Include/DXE.inc
   !include Include/RAW.inc
-  !include Include/COVER.inc
 
   # SmBios
   INF MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe.inf
@@ -99,13 +98,6 @@ READ_LOCK_STATUS   = TRUE
   #  SECTION RAW = b4qPkg/FdtBlob/sm8475-samsung-b4q.dtb
   #  SECTION UI = "Device Tree"
   #}
-
-  # Modded XBL Device Tree
-  INF QcomPkg/Drivers/XblDeviceTreeDxe/XblDeviceTreeDxe.inf
-  FILE FREEFORM = PCD (gQcomPkgTokenSpaceGuid.PcdModdedXblDeviceTreeFile) {
-    SECTION RAW = b4qPkg/XBL-FdtBlob/xbl-sm8475-samsung-b4q.dtb
-    SECTION UI = "XBL Device Tree"
-  }
 
   !include QcomPkg/Extra.fdf.inc
 

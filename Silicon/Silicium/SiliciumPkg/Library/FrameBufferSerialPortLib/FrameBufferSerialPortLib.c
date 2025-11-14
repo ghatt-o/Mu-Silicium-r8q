@@ -242,30 +242,16 @@ SerialPortInitialize ()
     return EFI_UNSUPPORTED;
   }
 
-  // Get Secondary Frame Buffer Offset
-  UINT64 FrameBufferOffset = FixedPcdGet64 (PcdSecondaryFrameBufferOffset);
+  // Set Frame Buffer Infos
+  FrameBufferData.Width         = FixedPcdGet32 (PcdFrameBufferWidth);
+  FrameBufferData.Height        = FixedPcdGet32 (PcdFrameBufferHeight);
+  FrameBufferData.BytesPerPixel = FixedPcdGet8  (PcdFrameBufferColorDepth) / 8;
 
-  // Get Frame Buffer Infos
-  if (FrameBufferOffset && FixedPcdGetBool (PcdSecondaryFrameBufferDebug)) {
-    // Update "Display Reserved" Memory Address
-    FrameBufferData.MemoryRegion.Address += FrameBufferOffset;
-
-    // Set Screen Infos
-    FrameBufferData.Width         = FixedPcdGet32 (PcdSecondaryFrameBufferWidth);
-    FrameBufferData.Height        = FixedPcdGet32 (PcdSecondaryFrameBufferHeight);
-    FrameBufferData.BytesPerPixel = FixedPcdGet8  (PcdSecondaryFrameBufferColorDepth) / 8;
-  } else {
-    // Set Screen Infos
-    FrameBufferData.Width         = FixedPcdGet32 (PcdPrimaryFrameBufferWidth);
-    FrameBufferData.Height        = FixedPcdGet32 (PcdPrimaryFrameBufferHeight);
-    FrameBufferData.BytesPerPixel = FixedPcdGet8  (PcdPrimaryFrameBufferColorDepth) / 8;
-  }
-
-  // Update "Display Reserved" Memory Length
+  // Update Display Reserved Length
   FrameBufferData.MemoryRegion.Length = FrameBufferData.Width * FrameBufferData.Height * FrameBufferData.BytesPerPixel;
 
   // Set Default Print Delay
-  FrameBufferData.PrintDelay = FixedPcdGet32 (PcdDebugFrameBufferDelay);
+  FrameBufferData.PrintDelay = FixedPcdGet32 (PcdFrameBufferDelay);
 
   // Set Font Scale (TODO: Add Dynamic Scale Method)
   FrameBufferData.FontScale = 1;
