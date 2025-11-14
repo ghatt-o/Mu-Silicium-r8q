@@ -24,7 +24,6 @@
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = spacewarPkg/spacewar.fdf
   USE_CUSTOM_DISPLAY_DRIVER      = 0
-  HAS_BUILD_IN_KEYBOARD          = 0
 
   #
   # 0 = SM7325
@@ -32,9 +31,6 @@
   # 2 = SM7325-AF
   #
   SOC_TYPE                       = 1
-
-[BuildOptions]
-  *_*_*_CC_FLAGS = -DHAS_BUILD_IN_KEYBOARD=$(HAS_BUILD_IN_KEYBOARD) -DUSE_CUSTOM_DISPLAY_DRIVER=$(USE_CUSTOM_DISPLAY_DRIVER)
 
 [PcdsFixedAtBuild]
   # DDR Start Address
@@ -44,6 +40,9 @@
   gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0x9FF90000
   gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|0x00040000
 
+  # Device GUID
+  gSiliciumPkgTokenSpaceGuid.PcdDeviceGuid|{ 0x31, 0x8D, 0x2F, 0x85, 0x46, 0xE1, 0x21, 0x4C, 0x85, 0x5F, 0xBA, 0x93, 0xD1, 0xC4, 0xCD, 0x20 }
+
   # SmBios
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemManufacturer|"Nothing"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Phone 1"
@@ -52,27 +51,23 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"Phone 1"
 
   # Simple Frame Buffer
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferWidth|1080
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferHeight|2400
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferColorDepth|32
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|1080
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|2400
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferColorDepth|32
   
   # Platform Pei
   gQcomPkgTokenSpaceGuid.PcdPlatformType|"LA"
   gQcomPkgTokenSpaceGuid.PcdScheduleInterfaceAddr|0x9FC37990
 
   # Dynamic RAM Start Address
-  gQcomPkgTokenSpaceGuid.PcdRamPartitionBase|0xE6500000
+  gSiliciumPkgTokenSpaceGuid.PcdRamPartitionBase|0xE6500000
 
   # SD Card Slot
   gQcomPkgTokenSpaceGuid.PcdInitCardSlot|FALSE
-  
-  # USB Controller
-  gQcomPkgTokenSpaceGuid.PcdStartUsbController|TRUE
 
 [LibraryClasses]
-  DeviceMemoryMapLib|spacewarPkg/Library/DeviceMemoryMapLib/DeviceMemoryMapLib.inf
-  DeviceConfigurationMapLib|spacewarPkg/Library/DeviceConfigurationMapLib/DeviceConfigurationMapLib.inf
-  DeviceGuidLib|spacewarPkg/Library/DeviceGuidLib/DeviceGuidLib.inf
+  MemoryMapLib|spacewarPkg/Library/MemoryMapLib/MemoryMapLib.inf
+  ConfigurationMapLib|spacewarPkg/Library/ConfigurationMapLib/ConfigurationMapLib.inf
   AcpiDeviceUpdateLib|SiliciumPkg/Library/AcpiDeviceUpdateLibNull/AcpiDeviceUpdateLibNull.inf
 
 !include KodiakPkg/KodiakPkg.dsc.inc

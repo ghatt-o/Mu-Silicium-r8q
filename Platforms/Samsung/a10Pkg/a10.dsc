@@ -24,10 +24,6 @@
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = a10Pkg/a10.fdf
   USE_CUSTOM_DISPLAY_DRIVER      = 0
-  HAS_BUILD_IN_KEYBOARD          = 0
-
-[BuildOptions]
-  *_*_*_CC_FLAGS = -DHAS_BUILD_IN_KEYBOARD=$(HAS_BUILD_IN_KEYBOARD) -DUSE_CUSTOM_DISPLAY_DRIVER=$(USE_CUSTOM_DISPLAY_DRIVER)
 
 [PcdsFixedAtBuild]
   # DDR Start Address
@@ -37,6 +33,9 @@
   gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0x80005000
   gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|0x00040000
 
+  # Device GUID
+  gSiliciumPkgTokenSpaceGuid.PcdDeviceGuid|{ 0x1F, 0x02, 0x4E, 0x5F, 0x08, 0x3F, 0x71, 0x49, 0x98, 0x60, 0x56, 0x89, 0x2E, 0x7E, 0x78, 0xCB }
+
   # SmBios
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemManufacturer|"Samsung"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Galaxy A10"
@@ -45,13 +44,12 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"Galaxy A10"
 
   # Simple Frame Buffer
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferWidth|720
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferHeight|1520
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferColorDepth|32
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|720
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|1520
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferColorDepth|32
 
 [LibraryClasses]
-  DeviceMemoryMapLib|a10Pkg/Library/DeviceMemoryMapLib/DeviceMemoryMapLib.inf
-  DeviceGuidLib|a10Pkg/Library/DeviceGuidLib/DeviceGuidLib.inf
+  MemoryMapLib|a10Pkg/Library/MemoryMapLib/MemoryMapLib.inf
   KeypadDeviceLib|a10Pkg/Library/KeypadDeviceLib/KeypadDeviceLib.inf
   AcpiDeviceUpdateLib|SiliciumPkg/Library/AcpiDeviceUpdateLibNull/AcpiDeviceUpdateLibNull.inf
 

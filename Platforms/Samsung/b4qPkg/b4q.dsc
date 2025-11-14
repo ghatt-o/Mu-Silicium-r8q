@@ -24,7 +24,6 @@
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = b4qPkg/b4q.fdf
   USE_CUSTOM_DISPLAY_DRIVER      = 1
-  HAS_BUILD_IN_KEYBOARD          = 0
 
   #
   # 0 = SM8475
@@ -32,9 +31,6 @@
   # 2 = SM7475-AB
   #
   SOC_TYPE                       = 0
-
-[BuildOptions]
-  *_*_*_CC_FLAGS = -DHAS_BUILD_IN_KEYBOARD=$(HAS_BUILD_IN_KEYBOARD) -DUSE_CUSTOM_DISPLAY_DRIVER=$(USE_CUSTOM_DISPLAY_DRIVER)
 
 [PcdsFixedAtBuild]
   # DDR Start Address
@@ -44,6 +40,9 @@
   gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0xA760D000
   gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|0x00040000  
 
+  # Device GUID
+  gSiliciumPkgTokenSpaceGuid.PcdDeviceGuid|{ 0x68, 0xF2, 0x2F, 0x29, 0xC3, 0x8C, 0xD9, 0x4D, 0xBD, 0x66, 0xB8, 0x35, 0x81, 0x9E, 0x8F, 0x0A }
+
   # SmBios
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemManufacturer|"Samsung"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Galaxy Z Flip 4"
@@ -51,17 +50,10 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"Galaxy_Z_Flip_4_b4q"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"Galaxy Z Flip 4"
 
-  # Simple Frame Buffer (Main Screen)
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferWidth|1080
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferHeight|2640
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferColorDepth|32
-
-  # Simple Frame Buffer (Cover Screen)
-  gSiliciumPkgTokenSpaceGuid.PcdSecondaryFrameBufferOffset|0x00AE0600
-  gSiliciumPkgTokenSpaceGuid.PcdSecondaryFrameBufferWidth|260
-  gSiliciumPkgTokenSpaceGuid.PcdSecondaryFrameBufferHeight|512
-  gSiliciumPkgTokenSpaceGuid.PcdSecondaryFrameBufferColorDepth|32
-  gSiliciumPkgTokenSpaceGuid.PcdSecondaryFrameBufferDebug|FALSE
+  # Simple Frame Buffer
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|1080
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|2640
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferColorDepth|32
 
   # Platform Pei
   gQcomPkgTokenSpaceGuid.PcdPlatformType|"LA"
@@ -69,21 +61,14 @@
   gQcomPkgTokenSpaceGuid.PcdDtbExtensionAddr|0xA703B0C8
 
   # Dynamic RAM Start Address
-  gQcomPkgTokenSpaceGuid.PcdRamPartitionBase|0xF5C00000
+  gSiliciumPkgTokenSpaceGuid.PcdRamPartitionBase|0xF5C00000
 
   # SD Card Slot
   gQcomPkgTokenSpaceGuid.PcdInitCardSlot|FALSE
-  
-  # USB Controller
-  gQcomPkgTokenSpaceGuid.PcdStartUsbController|TRUE
 
 [LibraryClasses]
-  DeviceMemoryMapLib|b4qPkg/Library/DeviceMemoryMapLib/DeviceMemoryMapLib.inf
-  DeviceConfigurationMapLib|b4qPkg/Library/DeviceConfigurationMapLib/DeviceConfigurationMapLib.inf
-  DeviceGuidLib|b4qPkg/Library/DeviceGuidLib/DeviceGuidLib.inf
+  MemoryMapLib|b4qPkg/Library/MemoryMapLib/MemoryMapLib.inf
+  ConfigurationMapLib|b4qPkg/Library/ConfigurationMapLib/ConfigurationMapLib.inf
   AcpiDeviceUpdateLib|SiliciumPkg/Library/AcpiDeviceUpdateLibNull/AcpiDeviceUpdateLibNull.inf
-
-[Components]
-  QcomPkg/Drivers/XblDeviceTreeDxe/XblDeviceTreeDxe.inf
 
 !include PalimaPkg/PalimaPkg.dsc.inc

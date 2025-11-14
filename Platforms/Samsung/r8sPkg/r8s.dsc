@@ -24,18 +24,17 @@
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = r8sPkg/r8s.fdf
   USE_CUSTOM_DISPLAY_DRIVER      = 0
-  HAS_BUILD_IN_KEYBOARD          = 0
-
-[BuildOptions]
-  *_*_*_CC_FLAGS = -DHAS_BUILD_IN_KEYBOARD=$(HAS_BUILD_IN_KEYBOARD) -DUSE_CUSTOM_DISPLAY_DRIVER=$(USE_CUSTOM_DISPLAY_DRIVER)
 
 [PcdsFixedAtBuild]
   # DDR Start Address
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
 
   # UEFI Stack Addresses
-  gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0x80002000
+  gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0xE8300000
   gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|0x00040000
+
+  # Device GUID
+  gSiliciumPkgTokenSpaceGuid.PcdDeviceGuid|{ 0x36, 0x45, 0xE3, 0x40, 0x82, 0x42, 0x87, 0x4C, 0xBF, 0x5E, 0xB0, 0xE1, 0xA4, 0x0C, 0x98, 0x7D }
 
   # SmBios
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemManufacturer|"Samsung"
@@ -45,13 +44,12 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"Galaxy S20 FE"
 
   # Simple Frame Buffer
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferWidth|1080
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferHeight|2400
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferColorDepth|32
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|1080
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|2400
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferColorDepth|32
 
 [LibraryClasses]
-  DeviceMemoryMapLib|r8sPkg/Library/DeviceMemoryMapLib/DeviceMemoryMapLib.inf
-  DeviceGuidLib|r8sPkg/Library/DeviceGuidLib/DeviceGuidLib.inf
+  MemoryMapLib|r8sPkg/Library/MemoryMapLib/MemoryMapLib.inf
   KeypadDeviceLib|r8sPkg/Library/KeypadDeviceLib/KeypadDeviceLib.inf
   AcpiDeviceUpdateLib|SiliciumPkg/Library/AcpiDeviceUpdateLibNull/AcpiDeviceUpdateLibNull.inf
 

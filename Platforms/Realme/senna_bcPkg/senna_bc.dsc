@@ -26,7 +26,6 @@
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = senna_bcPkg/senna_bc.fdf
   USE_CUSTOM_DISPLAY_DRIVER      = 0
-  HAS_BUILD_IN_KEYBOARD          = 0
 
   #
   # 0 = SM8475
@@ -34,15 +33,6 @@
   # 2 = SM7475-AB
   #
   SOC_TYPE                       = 1
-
-[BuildOptions]
-  *_*_*_CC_FLAGS = -DHAS_BUILD_IN_KEYBOARD=$(HAS_BUILD_IN_KEYBOARD)
-
-[LibraryClasses]
-  DeviceMemoryMapLib|senna_bcPkg/Library/DeviceMemoryMapLib/DeviceMemoryMapLib.inf
-  DeviceConfigurationMapLib|senna_bcPkg/Library/DeviceConfigurationMapLib/DeviceConfigurationMapLib.inf
-  DeviceGuidLib|senna_bcPkg/Library/DeviceGuidLib/DeviceGuidLib.inf
-  AcpiDeviceUpdateLib|SiliciumPkg/Library/AcpiDeviceUpdateLibNull/AcpiDeviceUpdateLibNull.inf
 
 [PcdsFixedAtBuild]
   # DDR Start Address
@@ -52,6 +42,9 @@
   gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0xA760D000
   gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|0x00040000
 
+  # Device GUID
+  gSiliciumPkgTokenSpaceGuid.PcdDeviceGuid|{ 0x2B, 0xCA, 0x3B, 0xBD, 0x7C, 0xA7, 0xCA, 0x41, 0x9A, 0x19, 0x52, 0xCB, 0xFA, 0xFA, 0xBD, 0x82 }
+
   # SmBios
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemManufacturer|"Realme"
 !if $(DEVICE_MODEL) == 0
@@ -60,10 +53,10 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"GT_Neo5_150W_senna_b"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"GT Neo5 150W"
 !elseif $(DEVICE_MODEL) == 1
-    gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"GT Neo5 240W"
-    gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"senna_c"
-    gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"GT_Neo5_240W_senna_c"
-    gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"GT Neo5 240W"
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"GT Neo5 240W"
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"senna_c"
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"GT_Neo5_240W_senna_c"
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"GT Neo5 240W"
 !elseif $(DEVICE_MODEL) == 2
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"GT3"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"senna_c"
@@ -74,9 +67,9 @@
 !endif
 
   # Simple FrameBuffer
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferWidth|1240
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferHeight|2772
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferColorDepth|32
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|1240
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|2772
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferColorDepth|32
 
   # Platform Pei
   gQcomPkgTokenSpaceGuid.PcdPlatformType|"LA"
@@ -84,12 +77,14 @@
   gQcomPkgTokenSpaceGuid.PcdScheduleInterfaceAddr|0xA703C928
 
   # Dynamic RAM Start Address
-  gQcomPkgTokenSpaceGuid.PcdRamPartitionBase|0xFFC00000
+  gSiliciumPkgTokenSpaceGuid.PcdRamPartitionBase|0xFFC00000
 
   # SD Card Slot
   gQcomPkgTokenSpaceGuid.PcdInitCardSlot|FALSE
 
-  # USB Controller
-  gQcomPkgTokenSpaceGuid.PcdStartUsbController|TRUE
+[LibraryClasses]
+  MemoryMapLib|senna_bcPkg/Library/MemoryMapLib/MemoryMapLib.inf
+  ConfigurationMapLib|senna_bcPkg/Library/ConfigurationMapLib/ConfigurationMapLib.inf
+  AcpiDeviceUpdateLib|SiliciumPkg/Library/AcpiDeviceUpdateLibNull/AcpiDeviceUpdateLibNull.inf
 
 !include PalimaPkg/PalimaPkg.dsc.inc

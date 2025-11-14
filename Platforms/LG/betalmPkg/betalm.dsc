@@ -24,7 +24,6 @@
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = betalmPkg/betalm.fdf
   USE_CUSTOM_DISPLAY_DRIVER      = 0
-  HAS_BUILD_IN_KEYBOARD          = 0
 
   #
   # 0 = SM8150
@@ -32,9 +31,6 @@
   # 2 = SM8150-AC
   #
   SOC_TYPE                       = 0
-
-[BuildOptions]
-  *_*_*_CC_FLAGS = -DHAS_BUILD_IN_KEYBOARD=$(HAS_BUILD_IN_KEYBOARD) -DUSE_CUSTOM_DISPLAY_DRIVER=$(USE_CUSTOM_DISPLAY_DRIVER)
 
 [PcdsFixedAtBuild]
   # DDR Start Address
@@ -44,6 +40,9 @@
   gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0x9FFB0000
   gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|0x00020000
 
+  # Device GUID
+  gSiliciumPkgTokenSpaceGuid.PcdDeviceGuid|{ 0x31, 0x37, 0x95, 0x31, 0x10, 0x50, 0x84, 0x45, 0x8F, 0x53, 0x31, 0x1E, 0x70, 0x24, 0xE5, 0x8A }
+
   # SmBios
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemManufacturer|"LG"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"G8s"
@@ -52,29 +51,25 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"G8s"
 
   # Simple Frame Buffer
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferWidth|1080
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferHeight|2248
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferColorDepth|32
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|1080
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|2248
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferColorDepth|32
 
   # Platform Pei
   gQcomPkgTokenSpaceGuid.PcdPlatformType|"LA"
 
   # Dynamic RAM Start Address
-  gQcomPkgTokenSpaceGuid.PcdRamPartitionBase|0xC4800000
+  gSiliciumPkgTokenSpaceGuid.PcdRamPartitionBase|0xC4800000
 
   # SD Card Slot
   gQcomPkgTokenSpaceGuid.PcdInitCardSlot|TRUE
-  
-  # USB Controller
-  gQcomPkgTokenSpaceGuid.PcdStartUsbController|TRUE
 
   # Storage
   gQcomPkgTokenSpaceGuid.PcdStorageIsUfs3|FALSE
 
 [LibraryClasses]
-  DeviceMemoryMapLib|betalmPkg/Library/DeviceMemoryMapLib/DeviceMemoryMapLib.inf
-  DeviceConfigurationMapLib|betalmPkg/Library/DeviceConfigurationMapLib/DeviceConfigurationMapLib.inf
-  DeviceGuidLib|betalmPkg/Library/DeviceGuidLib/DeviceGuidLib.inf
+  MemoryMapLib|betalmPkg/Library/MemoryMapLib/MemoryMapLib.inf
+  ConfigurationMapLib|betalmPkg/Library/ConfigurationMapLib/ConfigurationMapLib.inf
   AcpiDeviceUpdateLib|SiliciumPkg/Library/AcpiDeviceUpdateLibNull/AcpiDeviceUpdateLibNull.inf
 
 !include HanaPkg/HanaPkg.dsc.inc

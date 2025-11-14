@@ -64,8 +64,6 @@
   INF Binaries/betalm/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
   INF Binaries/betalm/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
 
-  INF QcomPkg/Drivers/CpuClockHandlerDxe/CpuClockHandlerDxe.inf
-
 !if $(USE_CUSTOM_DISPLAY_DRIVER) == 1
   INF Binaries/betalm/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
 !else
@@ -83,7 +81,6 @@
   INF Binaries/betalm/QcomPkg/Drivers/LimitsDxe/LimitsDxe.inf
   INF Binaries/betalm/QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf
 
-  INF QcomPkg/Drivers/DdrClockHandlerDxe/DdrClockHandlerDxe.inf
 
   INF Binaries/betalm/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.inf
 

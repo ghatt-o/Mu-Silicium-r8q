@@ -84,7 +84,6 @@
   INF Binaries/j706f/QcomPkg/Drivers/LimitsDxe/LimitsDxe.inf
   INF Binaries/j706f/QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf
 
-  INF QcomPkg/Drivers/DdrClockHandlerDxe/DdrClockHandlerDxe.inf
 
   INF Binaries/j706f/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.inf
 

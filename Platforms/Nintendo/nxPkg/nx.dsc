@@ -24,7 +24,6 @@
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = nxPkg/nx.fdf
   USE_CUSTOM_DISPLAY_DRIVER      = 0
-  HAS_BUILD_IN_KEYBOARD          = 0
 
 !if $(DEVICE_MODEL) == 0
   #
@@ -45,9 +44,6 @@
 !error "Invalid Model Type! 0 for Icosa, 1 for Iowa"
 !endif
 
-[BuildOptions]
-  *_*_*_CC_FLAGS = -DHAS_BUILD_IN_KEYBOARD=$(HAS_BUILD_IN_KEYBOARD) -DUSE_CUSTOM_DISPLAY_DRIVER=$(USE_CUSTOM_DISPLAY_DRIVER)
-
 [PcdsFixedAtBuild]
   # DDR Start Address
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
@@ -55,6 +51,9 @@
   # UEFI Stack Addresses
   gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0x80201000
   gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|0x00040000
+
+  # Device GUID
+  gSiliciumPkgTokenSpaceGuid.PcdDeviceGuid|{ 0x9E, 0x72, 0xA9, 0x2F, 0xED, 0x6B, 0x30, 0x4F, 0xAC, 0xDD, 0x8E, 0xB3, 0xC1, 0xB4, 0xAC, 0xA5 }
 
   # SmBios
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemManufacturer|"Nintendo"
@@ -68,16 +67,15 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"Switch"
 
   # Simple Frame Buffer (TODO: Rotate Screen Somehow)
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferWidth|720
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferHeight|1280
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferColorDepth|32
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferWidth|720
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferHeight|1280
+  gSiliciumPkgTokenSpaceGuid.PcdFrameBufferColorDepth|32
 
   # Dynamic RAM
-  gNvidiaPkgTokenSpaceGuid.PcdRamPartitionBase|0xF5D85000
+  gSiliciumPkgTokenSpaceGuid.PcdRamPartitionBase|0xF5D85000
 
 [LibraryClasses]
-  DeviceMemoryMapLib|nxPkg/Library/DeviceMemoryMapLib/DeviceMemoryMapLib.inf
-  DeviceGuidLib|nxPkg/Library/DeviceGuidLib/DeviceGuidLib.inf
+  MemoryMapLib|nxPkg/Library/MemoryMapLib/MemoryMapLib.inf
   KeypadDeviceLib|nxPkg/Library/KeypadDeviceLib/KeypadDeviceLib.inf
   AcpiDeviceUpdateLib|SiliciumPkg/Library/AcpiDeviceUpdateLibNull/AcpiDeviceUpdateLibNull.inf
 

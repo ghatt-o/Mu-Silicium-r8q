@@ -464,6 +464,36 @@
 </td></tr>
 </table>
 
+## OnePlus 13s
+<img align="right" src="Resources/Pictures/OnePlus-13s.png" width="550" alt="Preview">
+
+**State: Active** <br>
+**Codename: pagani** <br>
+**Contributors: [renhiyama](https://github.com/renhiyama), [Robotix](https://github.com/Robotix22/), [N1kroks](https://github.com/N1kroks/)**
+
+### UEFI Status
+
+| Feature            | Description | State |
+|:-------------------|:-------------|:-----:|
+| Display            |              | ✅    |
+| Internal Storage   |              | ✅    |
+| Side Buttons       |              | ✅    |
+| USB Host Mode      | Untested     | ❔    |
+| USB Device Mode    |              | ✅    |
+| USB Power Delivery |              | ❌    |
+| Mass Storage       |              | ✅    |
+| Windows Boot       | WIP          | 🏗    |
+| Linux Boot         | WIP          | 🏗    |
+
+<table>
+<tr><th>Linux</th></tr>
+<tr><td>
+
+> [!IMPORTANT]
+> Linux Requires: [Mainline Kernel](https://github.com/renhiyama/pagani-kernel) (WIP).
+
+</td></tr>
+</table>
 </details>
 
 ---
@@ -588,6 +618,30 @@
 
 <details>
 <summary><b><strong>Xiaomi Devices</strong></b></summary>
+
+## Xiaomi Pad 7 Pro
+
+<img align="right" src="Resources/Pictures/Xiaomi-Pad-7-Pro.png" width="400" alt="Preview">
+
+**State: Active** <br>
+**Codename: muyu** <br>
+**Contributors: [Sinetek (mail)](mailto:philmb3487@proton.me), [Sinetek (gitlab)](https://gitlab.com/philmb3487/)**
+
+### UEFI Status
+
+| Feature            | Description  | State |
+|:-------------------|:-------------|:-----:|
+| Display            |              | ✅    |
+| Internal Storage   |              | ✅    |
+| Side Buttons       |              | ✅    |
+| USB Host Mode      |              | ❌    |
+| USB Device Mode    |              | ✅    |
+| USB Power Delivery |              | ❌    |
+| Mass Storage       |              | ✅    |
+| Windows Boot       |              | ❌    |
+| Linux Boot         | Mainline WIP | ⚠️     |
+
+More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8635) - Mainlining](http://muyuwiki.ca).
 
 ## POCO F6
 
@@ -1123,7 +1177,7 @@
 | Feature            | Description                                          | State |
 |:-------------------|:-----------------------------------------------------|:-----:|
 | Main Display       |                                                      | ✅    |
-| Cover Display      | Remains Active when Booting a OS                     | ✅    |
+| Cover Display      |                                                      | ❌    |
 | Internal Storage   |                                                      | ✅    |
 | Side Buttons       |                                                      | ✅    |
 | USB Host Mode      |                                                      | ❌    |
@@ -1239,7 +1293,7 @@
 
 **State: Active** <br>
 **Codename: r0q** <br>
-**Contributors: [Violet](https://github.com/ghatt-o/) [Robotix](https://github.com/Robotix22/)**
+**Contributors: [Violet](https://github.com/ghatt-o/), [Robotix](https://github.com/Robotix22/)**
 
 ### UEFI Status
 
@@ -1253,9 +1307,54 @@
 | USB Power Delivery |                                                      | ❌    |
 | Mass Storage       | Needs patch to initialize without power button       | ✅    |
 | Windows Boot       | Windows PE only                                      | ⚠️    |
-| Linux Boot         |                                                      | ❔    |
+| Linux Boot         |                                                      | ✅    |
 
 ### OS Status
+
+<table>
+<tr><th>Linux</th></tr>
+<tr><td>
+
+> [!IMPORTANT]
+> Linux Requires: [Mainline Kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/).
+> Touchscreen and the display are still being upstreamed, check mailing lists
+
+> [!NOTE]
+> The PostmarketOS Site for this Device can be Found [here](https://wiki.postmarketos.org/wiki/Samsung_Galaxy_S22_5G_(samsung-r0q)).
+
+| Feature              | Description   | State |
+|:---------------------|:--------------|:-----:|
+| Internal Storage     |               | ✅    |
+| Side Buttons         |               | ✅    |
+| Proximity Sensor     |               | ❌    |
+| Light Sensor         |               | ❌    |
+| Accelerometer Sensor |               | ❌    |
+| Compass Sensor       |               | ❌    | 
+| Gyroscope Sensor     |               | ❌    |
+| Fingerprint Sensor   |               | ❌    |
+| NFC Sensor           |               | ❌    |
+| Temperature Sensor   |               | ❌    |
+| Battery              |               | ✅    |
+| USB Host Mode        |               | ❔    |
+| USB Device Mode      |               | ✅    |
+| USB Power Delivery   |               | ❔    |
+| Charging             | Slow Charging | ✅    |
+| WLAN                 |               | ✅    |
+| CPU                  |               | ✅    |
+| Touchscreen          |               | ✅    |
+| Bluetooth            |               | ✅    |
+| GPS                  |               | ❌    |
+| Speakers             |               | ✅    |
+| Microphone           |               | ❌    |
+| GPU                  |               | ✅    |
+| Camera               |               | ❌    |
+| Flashlight           |               | ❌    |
+| Mobile Data          |               | ❌    |
+| Display              |               | ✅    | 
+| Vibration            |               | ❌    |
+
+</td></tr>
+</table>
 
 <table>
 <tr><th>Windows</th></tr>
@@ -1264,10 +1363,13 @@
 > [!IMPORTANT]
 > Only Windows PE can Boot.
 
+> [!IMPORTANT]
+> Needs [Windows Drivers](https://github.com/Robotix22/windows_silicon_qcom_waipio/).
+
 | Feature              | Description   | State |
 |:---------------------|:--------------|:-----:|
 | Internal Storage     |               | ❌    |
-| Side Buttons         |               | ❌    |
+| Side Buttons         |               | ✅    |
 | Proximity Sensor     |               | ❌    |
 | Light Sensor         |               | ❌    |
 | Accelerometer Sensor |               | ❌    |
@@ -1335,11 +1437,14 @@
 <tr><th>Windows</th></tr>
 <tr><td>
 
+> [!IMPORTANT]
+> Needs [Windows Drivers](https://github.com/Robotix22/windows_silicon_qcom_waipio/).
+
 | Feature              | Description                                                                                                       | State |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------|:-----:|
 | Internal Storage     | Needs [Special Setup](https://github.com/Project-Silicium/Guides/blob/main/Vendors/Samsung/Modding-UFS/README.md) | ✅    |
 | SD Card              |                                                                                                                   | ❌    |
-| Side Buttons         |                                                                                                                   | ❌    |
+| Side Buttons         |                                                                                                                   | ✅    |
 | Proximity Sensor     |                                                                                                                   | ❌    |
 | Light Sensor         |                                                                                                                   | ❌    |
 | Accelerometer Sensor |                                                                                                                   | ❌    |
@@ -2837,6 +2942,43 @@
 </details>
 
 <details>
+<summary><b><strong>Samsung Devices</strong></b></summary>
+
+## Samsung Galaxy S9
+
+<table>
+<tr><td>
+
+> [!CAUTION]
+> `BIT-9` Version is Required on this Phone!
+
+</td></tr>
+</table>
+
+<img align="right" src="Resources/Pictures/Samsung-Galaxy-S9.png" width="500" alt="Preview">
+
+**State: Active** <br>
+**Codename: starqltechn** <br>
+**Contributors: [Violet](https://github.com/ghatt-o/) [Robotix](https://github.com/Robotix22/)**
+ 
+### UEFI Status
+
+| Feature            |  Description      | State |
+|:-------------------|:------------------|:-----:|
+| Display            |                   | ✅    |
+| Internal Storage   |                   | ✅    |
+| Side Buttons       | Only volume keys  | ⚠️    |
+| USB Host Mode      |                   | ❌    |
+| USB Device Mode    |                   | ❌    |
+| USB Power Delivery |                   | ❌    |
+| Mass Storage       | Needs Device Mode | ❌    |
+| SD Card            |                   | ❔    |
+| Windows Boot       |                   | ❌    |
+| Linux Boot         |                   | ❔    |
+
+</details>
+
+<details>
 <summary><b><strong>Xiaomi Devices</strong></b></summary>
 
 ## Xiaomi Mi 8 Pro
@@ -3470,6 +3612,29 @@
 
 </td></tr>
 </table>
+
+## Xiaomi Poco X2 / Redmi K30
+
+<img align="right" src="Resources/Pictures/Xiaomi-Poco-X2.png" width="500" alt="Preview">
+
+**State: Active** <br>
+**Codename: phoenix** <br>
+**Contributors: [remtrik](https://github.com/remtrik)**
+
+### UEFI Status
+
+| Feature            | Description       | State |
+|:-------------------|:------------------|:-----:|
+| Display            |                   | ✅    |
+| Internal Storage   |                   | ✅    |
+| Side Buttons       |                   | ✅    |
+| USB Host Mode      |                   | ❌    |
+| USB Device Mode    |                   | ✅    |
+| USB Power Delivery |                   | ❌    |
+| Mass Storage       |                   | ✅    |
+| SD Card            |                   | ❌    |
+| Windows Boot       |                   | ❌    |
+| Linux Boot         |                   | ❌    |
 
 ## Xiaomi Redmi Note 12 Pro 4G
 
@@ -4676,7 +4841,7 @@
 | Temperature Sensor   |                                   | ❌    |
 | Battery              |                                   | ❌    |
 | USB Host Mode        |                                   | ❌    |
-| USB Device Mode      |                                   | ❔     |
+| USB Device Mode      |                                   | ❔    |
 | USB Power Delivery   |                                   | ❌    |
 | Charging             |                                   | ❌    |
 | WLAN                 |                                   | ❌    |
