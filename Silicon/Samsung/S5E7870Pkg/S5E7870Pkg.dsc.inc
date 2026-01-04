@@ -16,13 +16,6 @@
   USE_CUSTOM_TIMER                           = 0
   USE_PHYSICAL_TIMER                         = 0
 
-  # KEP
-  ENABLE_KEP                                 = 0
-  HAS_ACTLR_EL1_UNIMPLEMENTED_ERRATA         = 0
-  HAS_AMCNTENSET0_EL0_UNIMPLEMENTED_ERRATA   = 0
-  HAS_GIC_V3_WITHOUT_IRM_FLAG_SUPPORT_ERRATA = 0
-  HAS_PSCI_MEMPROTECT_FAILING_ERRATA         = 0
-
 [BuildOptions]
   *_*_AARCH64_CC_FLAGS = -march=armv8-a+crypto+rcpc
 
@@ -48,6 +41,7 @@
   gArmTokenSpaceGuid.PcdGicInterruptInterfaceBase|0x104E2000
 
   # Timer
+  gSiliciumPkgTokenSpaceGuid.PcdTimerFreqOverwrite|26000000
   gArmTokenSpaceGuid.PcdArmArchTimerSecIntrNum|29
   gArmTokenSpaceGuid.PcdArmArchTimerIntrNum|30
 
@@ -70,11 +64,23 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosMemoryType|29
 
 [LibraryClasses]
-  PlatformPrePiLib|S5E7870Pkg/Library/PlatformPrePiLib/PlatformPrePiLib.inf
-  AcpiPlatformUpdateLib|SiliciumPkg/Library/AcpiPlatformUpdateLibNull/AcpiPlatformUpdateLibNull.inf
+  #
+  # UEFI Libraries
+  #
   HwResetSystemLib|ArmPkg/Library/ArmPsciResetSystemLib/ArmPsciResetSystemLib.inf
   ResetSystemLib|ArmPkg/Library/ArmPsciResetSystemLib/ArmPsciResetSystemLib.inf
+
+  #
+  # Silicium Libraries
+  #
+  PlatformPrePiLib|S5E7870Pkg/Library/PlatformPrePiLib/PlatformPrePiLib.inf
+  AcpiPlatformUpdateLib|SiliciumPkg/Library/AcpiPlatformUpdateLibNull/AcpiPlatformUpdateLibNull.inf
   SoCPlatformLib|S5E7870Pkg/Library/SoCPlatformLib/SoCPlatformLib.inf
+
+  #
+  # Custom Libraries
+  #
+  GpioBankLib|S5E7870Pkg/Library/GpioBankLib/GpioBankLib.inf
 
 [Components]
   SamsungPkg/Drivers/SmBiosTableDxe/SmBiosTableDxe.inf

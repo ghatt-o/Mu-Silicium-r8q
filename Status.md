@@ -13,7 +13,7 @@
 <br>
 
 <details>
-<summary><b><strong>Exynos 2400 Devices</strong></b></summary>
+<summary><b><strong>Exynos 2400/2400e Devices</strong></b></summary>
 
 ## Samsung Galaxy S24
 
@@ -28,9 +28,10 @@
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-S24.png" width="400" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: e1s** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [halal-beef](https://github.com/halal-beef/)**
+**State:** Inactive <br>
+**Codename:** e1s
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [halal-beef](https://github.com/halal-beef/)
 
 ### UEFI Status
 
@@ -64,9 +65,10 @@
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-Note20-5G.png" width="250" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: c1s** <br>
-**Contributors: [halal-beef](https://github.com/halal-beef/), [BotchedRPR](https://github.com/BotchedRPR/)**
+**State:** Inactive <br>
+**Codename:** c1s
+
+**Contributors:** [halal-beef](https://github.com/halal-beef/), [BotchedRPR](https://github.com/BotchedRPR/)
 
 ### UEFI Status
 
@@ -95,9 +97,10 @@
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-S20-5G.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: x1s** <br>
-**Contributors: [halal-beef](https://github.com/halal-beef/)**
+**State:** Inactive <br>
+**Codename:** x1s
+
+**Contributors:** [halal-beef](https://github.com/halal-beef/)
 
 ### UEFI Status
 
@@ -126,9 +129,10 @@
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-S20-FE.png" width="432" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: r8s** <br>
-**Contributors: [halal-beef](https://github.com/halal-beef/), [Sota4Ever](https://github.com/Sota4Ever/)**
+**State:** Inactive <br>
+**Codename:** r8s
+
+**Contributors:** [halal-beef](https://github.com/halal-beef/), [Sota4Ever](https://github.com/Sota4Ever/)
 
 ### UEFI Status
 
@@ -162,9 +166,10 @@
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-S10.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: beyond1lte** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/)**
+**State:** Inactive <br>
+**Codename:** beyond1lte
+
+**Contributors:** [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -198,9 +203,10 @@
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-S9.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: starlte** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/)**
+**State:** Inactive <br>
+**Codename:** starlte
+
+**Contributors:** [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -243,9 +249,10 @@
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-A10.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: a10** <br>
-**Contributors: [snaccy](https://github.com/sonic011gamer/)**
+**State:** Inactive <br>
+**Codename:** a10
+
+**Contributors:** [snaccy](https://github.com/sonic011gamer/)
 
 ### UEFI Status
 
@@ -274,9 +281,10 @@
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-A7.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: a7** <br>
-**Contributors: [Icesito](https://github.com/Icesito68/)**
+**State:** Inactive <br>
+**Codename:** a7
+
+**Contributors:** [Icesito](https://github.com/Icesito68/)
 
 ### UEFI Status
 
@@ -319,9 +327,10 @@
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-Tab-A-10.1.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: gtaxllte** <br>
-**Contributors: [Glitchythedev](https://github.com/Glitchythedev/), [AistopGit](https://github.com/AistopGit)**
+**State:** Inactive <br>
+**Codename:** gtaxllte
+
+**Contributors:** [Glitchythedev](https://github.com/Glitchythedev/), [AistopGit](https://github.com/AistopGit)
 
 ### UEFI Status
 
@@ -360,9 +369,10 @@
 
 <img align="right" src="Resources/Pictures/Xiaomi-Redmi-9.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: lancelot** <br>
-**Contributors: [Nikroks](https://github.com/N1kroks/)**
+**State:** Inactive <br>
+**Codename:** lancelot
+
+**Contributors:** [Nikroks](https://github.com/N1kroks/)
 
 ### UEFI Status
 
@@ -402,9 +412,10 @@
 
 <img align="right" src="Resources/Pictures/OnePlus-13.png" width="550" alt="Preview">
 
-**State: Active** <br>
-**Codename: dodge** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [N1kroks](https://github.com/N1kroks/), [index986](https://github.com/index986/)**
+**State:** Active <br>
+**Codename:** dodge
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [N1kroks](https://github.com/N1kroks/), [index986](https://github.com/index986/)
 
 ### UEFI Status
 
@@ -467,9 +478,10 @@
 ## OnePlus 13s
 <img align="right" src="Resources/Pictures/OnePlus-13s.png" width="550" alt="Preview">
 
-**State: Active** <br>
-**Codename: pagani** <br>
-**Contributors: [renhiyama](https://github.com/renhiyama), [Robotix](https://github.com/Robotix22/), [N1kroks](https://github.com/N1kroks/)**
+**State:** Active <br>
+**Codename:** pagani
+
+**Contributors:** [renhiyama](https://github.com/renhiyama), [Robotix](https://github.com/Robotix22/), [N1kroks](https://github.com/N1kroks/)
 
 ### UEFI Status
 
@@ -501,7 +513,7 @@
 </details>
 
 <details>
-<summary><b><strong>Snapdragon 8s Gen 3 Devices</strong></b></summary>
+<summary><b><strong>Snapdragon 8s Gen 3 / 7+ Gen 3 Devices</strong></b></summary>
 
 <br>
 
@@ -517,13 +529,14 @@
 <details>
 <summary><b><strong>Realme Devices</strong></b></summary>
 
-## Realme GT Neo6 / GT 6
+## Realme GT Neo6
 
 <img align="right" src="Resources/Pictures/Realme-GT-Neo6.png" width="400" alt="Preview">
 
-**State: Active** <br>
-**Codename: bale** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [Shandorman](https://github.com/jiganomegsdfdf/), [InternalHellhound](https://github.com/InternalHellhound), [index986](https://github.com/index986/), [Daniel224455](https://github.com/Daniel224455/), [Aistop](https://github.com/AistopGit/)**
+**State:** Active <br>
+**Codename:** bale_b
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [Shandorman](https://github.com/jiganomegsdfdf/), [InternalHellhound](https://github.com/InternalHellhound), [index986](https://github.com/index986/), [Daniel224455](https://github.com/Daniel224455/), [Aistop](https://github.com/AistopGit/)
 
 ### UEFI Status
 
@@ -623,9 +636,10 @@
 
 <img align="right" src="Resources/Pictures/Xiaomi-Pad-7-Pro.png" width="400" alt="Preview">
 
-**State: Active** <br>
-**Codename: muyu** <br>
-**Contributors: [Sinetek (mail)](mailto:philmb3487@proton.me), [Sinetek (gitlab)](https://gitlab.com/philmb3487/)**
+**State:** Active <br>
+**Codename:** muyu
+
+**Contributors:** [Sinetek (mail)](mailto:philmb3487@proton.me), [Sinetek (gitlab)](https://gitlab.com/philmb3487/)
 
 ### UEFI Status
 
@@ -647,9 +661,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Poco-F6.png" width="400" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: peridot** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [PugzAreCute](https://github.com/PugzAreCute), [InternalHellhound](https://github.com/InternalHellhound), [iNUCi](https://github.com/iNUCi), [Daniel224455](https://github.com/Daniel224455/), [Aistop](https://github.com/AistopGit/)**
+**State:** Inactive <br>
+**Codename:** peridot
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [PugzAreCute](https://github.com/PugzAreCute), [InternalHellhound](https://github.com/InternalHellhound), [iNUCi](https://github.com/iNUCi), [Daniel224455](https://github.com/Daniel224455/), [Aistop](https://github.com/AistopGit/)
 
 ### UEFI Status
 
@@ -771,9 +786,11 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/OnePlus-12R.png" width="350" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: aston** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [Shandorman](https://github.com/jiganomegsdfdf/)**
+**State:** Inactive <br>
+**Codename:** aston <br>
+**Models:** 2
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [Shandorman](https://github.com/jiganomegsdfdf/)
 
 ### UEFI Status
 
@@ -870,15 +887,115 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 </details>
 
 <details>
+<summary><b><strong>Qualcomm Devices</strong></b></summary>
+
+## Qualcomm Technologies, Inc. QRD8550
+
+**State:** active <br>
+**Codename:** qrd8550 <br>
+
+**Contributors:** [arminask](https://github.com/arminask/), [map220v](https://github.com/map220v/)
+
+### UEFI Status
+
+| Feature            | Description | State |
+|:-------------------|:------------|:-----:|
+| Display            |             | ✅    |
+| Internal Storage   |             | ✅    |
+| Side Buttons       |             | ✅    |
+| USB Host Mode      |             | ❌    |
+| USB Device Mode    |             | ✅    |
+| USB Power Delivery |             | ❌    |
+| Mass Storage       |             | ✅    |
+| Windows Boot       |             | ✅    |
+| Linux Boot         |             | ❔    |
+
+### OS Status
+
+<table>
+<tr><th>Windows</th><th>Linux</th></tr>
+<tr><td>
+
+| Feature              | Description   | State |
+|:---------------------|:--------------|:-----:|
+| Internal Storage     |               | ✅    |
+| Side Buttons         |               | ✅    |
+| Proximity Sensor     |               | ❌    |
+| Light Sensor         |               | ❌    |
+| Accelerometer Sensor |               | ❌    |
+| Gyroscope Sensor     |               | ❌    |
+| Magnetometer Sensor  |               | ❌    |
+| Fingerprint Sensor   |               | ❌    |
+| NFC Sensor           |               | ❌    |
+| Temperature Sensor   |               | ✅    |
+| Battery              |               | ✅    |
+| USB Host Mode        |               | ❔    |
+| USB Device Mode      |               | ❔    |
+| USB Power Delivery   |               | ❔    |
+| Charging             |               | ✅    |
+| WLAN                 |               | ❌    |
+| CPU                  |               | ✅    |
+| Touchscreen          |               | ✅    |
+| Bluetooth            |               | ✅    |
+| GPS                  |               | ✅    |
+| Speakers             |               | ❌    |
+| Microphone           |               | ❌    |
+| GPU                  |               | ❌    |
+| Camera               |               | ❌    |
+| Mobile Data          |               | ❌    |
+| Display              |               | ✅    | 
+| Vibration            |               | ❌    |
+
+</td>
+<td>
+
+| Feature              | Description   | State |
+|:---------------------|:--------------|:-----:|
+| Internal Storage     |               | ❌    |
+| Side Buttons         |               | ❌    |
+| Proximity Sensor     |               | ❌    |
+| Light Sensor         |               | ❌    |
+| Accelerometer Sensor |               | ❌    |
+| Compass Sensor       |               | ❌    | 
+| Gyroscope Sensor     |               | ❌    |
+| Fingerprint Sensor   |               | ❌    |
+| NFC Sensor           |               | ❌    |
+| Temperature Sensor   |               | ❌    |
+| Battery              |               | ❌    |
+| USB Host Mode        |               | ❌    |
+| USB Device Mode      |               | ❌    |
+| USB Power Delivery   |               | ❌    |
+| Charging             |               | ❌    |
+| WLAN                 |               | ❌    |
+| CPU                  |               | ❌    |
+| Touchscreen          |               | ❌    |
+| Flashlight           |               | ❌    |
+| Bluetooth            |               | ❌    |
+| GPS                  |               | ❌    |
+| Speakers             |               | ❌    |
+| Microphone           |               | ❌    |
+| GPU                  |               | ❌    |
+| Camera               |               | ❌    |
+| Mobile Data          |               | ❌    |
+| Display              |               | ❌    | 
+| Vibration            |               | ❌    |
+
+</td></tr>
+</table>
+
+</details>
+
+<details>
 <summary><b><strong>Xiaomi Devices</strong></b></summary>
 
 ## Xiaomi 13 Pro
 
 <img align="right" src="Resources/Pictures/Xiaomi-13-Pro.png" width="350" alt="Preview">
 
-**State: Active** <br>
-**Codename: nuwa** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [Alfa](https://github.com/alfaonyt/)**
+**State:** Active <br>
+**Codename:** nuwa
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [Alfa](https://github.com/alfaonyt/)
 
 ### UEFI Status
 
@@ -945,9 +1062,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/RedMagic-8-Pro.png" width="350" alt="Preview">
 
-**State: Active** <br>
-**Codename: nx729j** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [Nikka](https://github.com/NikkaGames/)**
+**State:** Active <br>
+**Codename:** nx729j
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [Nikka](https://github.com/NikkaGames/)
 
 ### UEFI Status
 
@@ -1030,9 +1148,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Nothing-Phone-2.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: pong** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [N1kroks](https://github.com/N1kroks/), [index986](https://github.com/index986/)**
+**State:** Inactive <br>
+**Codename:** pong
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [N1kroks](https://github.com/N1kroks/), [index986](https://github.com/index986/)
 
 ### UEFI Status
 
@@ -1132,9 +1251,11 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Realme-GT-Neo5.png" width="400" alt="Preview">
 
-**State: Active** <br>
-**Codename: senna_bc** <br>
-**Contributors: [artempeshkov](https://github.com/artempeshkov/), [Rostislav Lastochkin](https://github.com/remtrik), [Robotix](https://github.com/Robotix22/)**
+**State:** Active <br>
+**Codename:** senna_bc <br>
+**Models:** 3
+
+**Contributors:** [artempeshkov](https://github.com/artempeshkov/), [Rostislav Lastochkin](https://github.com/remtrik), [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -1168,9 +1289,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-Z-Flip-4.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: b4q** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/)**
+**State:** Inactive <br>
+**Codename:** b4q
+
+**Contributors:** [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -1237,9 +1359,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Poco-F5.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: marble** <br>
-**Contributors: [Yuzuru10](https://github.com/Yuzuru10/), [Robotix](https://github.com/Robotix22/)**
+**State:** Active <br>
+**Codename:** marble
+
+**Contributors:** [Yuzuru10](https://github.com/Yuzuru10/), [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -1291,9 +1414,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-S22-5G.jpg" width="400" alt="Preview">
 
-**State: Active** <br>
-**Codename: r0q** <br>
-**Contributors: [Violet](https://github.com/ghatt-o/), [Robotix](https://github.com/Robotix22/)**
+**State:** Active <br>
+**Codename:** r0q
+
+**Contributors:** [Violet](https://github.com/ghatt-o/), [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -1366,35 +1490,35 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 > [!IMPORTANT]
 > Needs [Windows Drivers](https://github.com/Robotix22/windows_silicon_qcom_waipio/).
 
-| Feature              | Description   | State |
-|:---------------------|:--------------|:-----:|
-| Internal Storage     |               | ❌    |
-| Side Buttons         |               | ✅    |
-| Proximity Sensor     |               | ❌    |
-| Light Sensor         |               | ❌    |
-| Accelerometer Sensor |               | ❌    |
-| Compass Sensor       |               | ❌    | 
-| Gyroscope Sensor     |               | ❌    |
-| Fingerprint Sensor   |               | ❌    |
-| NFC Sensor           |               | ❌    |
-| Temperature Sensor   |               | ❌    |
-| Battery              |               | ❌    |
-| USB Host Mode        |               | ❌    |
-| USB Device Mode      |               | ❌    |
-| USB Power Delivery   |               | ❌    |
-| Charging             |               | ❌    |
-| WLAN                 |               | ❌    |
-| CPU                  | Only one core | ⚠️    |
-| Touchscreen          |               | ❌    |
-| Bluetooth            |               | ❌    |
-| GPS                  |               | ❌    |
-| Speakers             |               | ❌    |
-| Microphone           |               | ❌    |
-| GPU                  |               | ❌    |
-| Camera               |               | ❌    |
-| Mobile Data          |               | ❌    |
-| Display              |               | ✅    | 
-| Vibration            |               | ❌    |
+| Feature              | Description | State |
+|:---------------------|:------------|:-----:|
+| Internal Storage     |             | ❌    |
+| Side Buttons         |             | ✅    |
+| Proximity Sensor     |             | ❌    |
+| Light Sensor         |             | ❌    |
+| Accelerometer Sensor |             | ❌    |
+| Compass Sensor       |             | ❌    | 
+| Gyroscope Sensor     |             | ❌    |
+| Fingerprint Sensor   |             | ❌    |
+| NFC Sensor           |             | ❌    |
+| Temperature Sensor   |             | ❌    |
+| Battery              |             | ❌    |
+| USB Host Mode        |             | ❌    |
+| USB Device Mode      |             | ❌    |
+| USB Power Delivery   |             | ❌    |
+| Charging             |             | ❌    |
+| WLAN                 |             | ❌    |
+| CPU                  |             | ✅    |
+| Touchscreen          |             | ❌    |
+| Bluetooth            |             | ❌    |
+| GPS                  |             | ❌    |
+| Speakers             |             | ❌    |
+| Microphone           |             | ❌    |
+| GPU                  |             | ❌    |
+| Camera               |             | ❌    |
+| Mobile Data          |             | ❌    |
+| Display              |             | ✅    | 
+| Vibration            |             | ❌    |
 
 </td></tr>
 </table>
@@ -1412,9 +1536,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-Tab-S8+-5G.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: gts8p** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/)**
+**State:** Active <br>
+**Codename:** gts8p
+
+**Contributors:** [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -1427,7 +1552,7 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 | USB Device Mode    | Requires a Reconnect if it was Connected during Boot | ✅    |
 | USB Power Delivery |                                                      | ❌    |
 | Mass Storage       |                                                      | ✅    |
-| SD Card            | Power On Code is Missing                             | ❌    |
+| SD Card            |                                                      | ✅    |
 | Windows Boot       |                                                      | ✅    |
 | Linux Boot         |                                                      | ❌    |
 
@@ -1475,79 +1600,6 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 </td></tr>
 </table>
 
-## Samsung Galaxy Tab S8 5G
-
-<table>
-<tr><td>
-
-> [!CAUTION]
-> `BIT-9` Version is Required on this Phone!
-
-</td></tr>
-</table>
-
-<img align="right" src="Resources/Pictures/Samsung-Galaxy-Tab-S8-5G.png" width="500" alt="Preview">
-
-**State: Inactive** <br>
-**Codename: gts8** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/)**
-
-### UEFI Status
-
-| Feature            | Description               | State |
-|:-------------------|:--------------------------|:-----:|
-| Display            | Wrong Display Oriantation | ⚠️    |
-| Internal Storage   |                           | ✅    |
-| Side Buttons       | Pwr Button does not work  | ⚠️    |
-| USB Host Mode      |                           | ❌    |
-| USB Device Mode    |                           | ✅    |
-| USB Power Delivery |                           | ❌    |
-| Mass Storage       |                           | ❔    |
-| SD Card            |                           | ❌    |
-| Windows Boot       |                           | ✅    |
-| Linux Boot         |                           | ❌    |
-
-### OS Status
-
-<table>
-<tr><th>Windows</th></tr>
-<tr><td>
-
-| Feature              | Description                                                                                                       | State |
-|:---------------------|:------------------------------------------------------------------------------------------------------------------|:-----:|
-| Internal Storage     | Needs [Special Setup](https://github.com/Project-Silicium/Guides/blob/main/Vendors/Samsung/Modding-UFS/README.md) | ✅    |
-| SD Card              |                                                                                                                   | ❌    |
-| Side Buttons         |                                                                                                                   | ❌    |
-| Proximity Sensor     |                                                                                                                   | ❌    |
-| Light Sensor         |                                                                                                                   | ❌    |
-| Accelerometer Sensor |                                                                                                                   | ❌    |
-| Compass Sensor       |                                                                                                                   | ❌    |
-| Gyroscope Sensor     |                                                                                                                   | ❌    |
-| Fingerprint Sensor   |                                                                                                                   | ❌    |
-| Hall Sensor          |                                                                                                                   | ❌    |
-| Temperature Sensor   |                                                                                                                   | ❌    |
-| Battery              |                                                                                                                   | ❌    |
-| USB Host Mode        |                                                                                                                   | ❌    |
-| USB Device Mode      |                                                                                                                   | ❌    |
-| USB Power Delivery   |                                                                                                                   | ❌    |
-| Charging             |                                                                                                                   | ❌    |
-| WLAN                 |                                                                                                                   | ❌    |
-| CPU                  | One Core Only                                                                                                     | ⚠️    |
-| Touchscreen          |                                                                                                                   | ❌    |
-| Bluetooth            |                                                                                                                   | ❌    |
-| GPS                  |                                                                                                                   | ❌    |
-| Speakers             |                                                                                                                   | ❌    |
-| Microphone           |                                                                                                                   | ❌    |
-| GPU                  |                                                                                                                   | ❌    |
-| Camera               |                                                                                                                   | ❌    |
-| Mobile Data          |                                                                                                                   | ❌    |
-| Display              | Wrong Orientation                                                                                                 | ⚠️    |
-| Vibration            |                                                                                                                   | ❌    |
-| S Pen                |                                                                                                                   | ❌    |
-
-</td></tr>
-</table>
-
 </details>
 
 <details>
@@ -1557,9 +1609,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-12-Pro.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: zeus** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [2petro](https://github.com/2Petro/)**
+**State:** Inactive <br>
+**Codename:** zeus
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [2petro](https://github.com/2Petro/)
 
 ### UEFI Status
 
@@ -1579,9 +1632,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Poco-F4-GT.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: ingres** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [Nikka](https://github.com/NikkaGames/)**
+**State:** Inactive <br>
+**Codename:** ingres
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [Nikka](https://github.com/NikkaGames/)
 
 ### UEFI Status
 
@@ -1661,9 +1715,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Asus-ROG-Phone-5.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: i005d** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [Alfa](https://github.com/alfaonyt/)**
+**State:** Active <br>
+**Codename:** i005d
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [Alfa](https://github.com/alfaonyt/)
 
 ### UEFI Status
 
@@ -1688,9 +1743,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Oneplus-9.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: lemonade** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/)**
+**State:** Inactive <br>
+**Codename:** lemonade
+
+**Contributors:** [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -1767,9 +1823,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-S21-Fe.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: r9qb2** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [Nikroks](https://github.com/N1kroks/), [Icesito68](https://github.com/Icesito68/)**
+**State:** Inactive <br>
+**Codename:** r9qb2
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [Nikroks](https://github.com/N1kroks/), [Icesito68](https://github.com/Icesito68/)
 
 ### UEFI Status
 
@@ -1836,9 +1893,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-Z-Fold-3-5G.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: q2q** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [Azkali](https://github.com/Azkali/)**
+**State:** Inactive <br>
+**Codename:** q2q
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [Azkali](https://github.com/Azkali/)
 
 ### UEFI Status
 
@@ -1907,9 +1965,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Mi-11.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: venus** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [Daniel224455](https://github.com/Daniel224455/)**
+**State:** Inactive <br>
+**Codename:** venus
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [Daniel224455](https://github.com/Daniel224455/)
 
 ### UEFI Status
 
@@ -1972,9 +2031,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-11T-Pro.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: vili** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/)**
+**State:** Active <br>
+**Codename:** vili
+
+**Contributors:** [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -2051,9 +2111,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/OnePlus-8T.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: kebab** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [SwedMlite](https://github.com/SwedMlite/)**
+**State:** Inactive <br>
+**Codename:** kebab
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [SwedMlite](https://github.com/SwedMlite/)
 
 ### UEFI Status
 
@@ -2118,9 +2179,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Lenovo-Legion-Tab-Y700.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: 9707f** <br>
-**Contributors: [hyusang](https://github.com/cloudsweets/)**
+**State:** Inactive <br>
+**Codename:** 9707f
+
+**Contributors:** [hyusang](https://github.com/cloudsweets/)
 
 ### UEFI Status
 
@@ -2187,9 +2249,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Realme-GT-NEO-2.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: bitra** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [kubawis128](https://github.com/kubawis128/)**
+**State:** Inactive <br>
+**Codename:** bitra
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [kubawis128](https://github.com/kubawis128/)
 
 ### UEFI Status
 
@@ -2285,9 +2348,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-S20-FE-r8q.png" width="390" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: r8q** <br>
-**Contributors: [olegos2](https://github.com/olegos2), [Robotix](https://github.com/Robotix22/)**
+**State:** Inactive <br>
+**Codename:** r8q
+
+**Contributors:** [olegos2](https://github.com/olegos2), [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -2313,9 +2377,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Pad-6.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: pipa** <br>
-**Contributors: [Statzar](https://github.com/Statzar), [N1kroks](https://github.com/N1kroks), [Robotix](https://github.com/Robotix22/), [6adp](https://github.com/6adp)**
+**State:** Inactive <br>
+**Codename:** pipa
+
+**Contributors:** [Statzar](https://github.com/Statzar), [N1kroks](https://github.com/N1kroks), [Robotix](https://github.com/Robotix22/), [6adp](https://github.com/6adp)
 
 ### UEFI Status
 
@@ -2396,9 +2461,11 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Poco-F3.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: alioth** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [SwedMlite](https://github.com/SwedMlite/), [hyusang](https://github.com/cloudsweets/), [AdrianoA3](https://github.com/AdrianoA3/), [N1kroks](https://github.com/N1kroks/)**
+**State:** Active <br>
+**Codename:** alioth <br>
+**Models:** 3
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [SwedMlite](https://github.com/SwedMlite/), [hyusang](https://github.com/cloudsweets/), [AdrianoA3](https://github.com/AdrianoA3/), [N1kroks](https://github.com/N1kroks/)
 
 ### UEFI Status
 
@@ -2504,9 +2571,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/LG-G8s.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: betalm** <br>
-**Contributors: [Daniel224455](https://github.com/Daniel224455), [n00b69](https://github.com/n00b69), [Icesito68](https://github.com/Icesito68)**
+**State:** Inactive <br>
+**Codename:** betalm
+
+**Contributors:** [Daniel224455](https://github.com/Daniel224455), [n00b69](https://github.com/n00b69), [Icesito68](https://github.com/Icesito68)
 
 ### UEFI Status
 
@@ -2574,9 +2642,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Oneplus-7T-Pro.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: hotdog** <br>
-**Contributors: [mat-777](https://github.com/mat-777/)** <br>
+**State:** Inactive <br>
+**Codename:** hotdog
+
+**Contributors:** [mat-777](https://github.com/mat-777/) <br>
 
 ### UEFI Status
 
@@ -2641,9 +2710,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Pad-5.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: nabu** <br>
-**Contributors: [iNUCi](https://github.com/iNUCi), [Robotix](https://github.com/Robotix22/)**
+**State:** Active <br>
+**Codename:** nabu
+
+**Contributors:** [iNUCi](https://github.com/iNUCi), [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -2734,9 +2804,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Mi-9.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: cepheus** <br>
-**Contributors: [Daniel224455](https://github.com/Daniel224455)**
+**State:** Inactive <br>
+**Codename:** cepheus
+
+**Contributors:** [Daniel224455](https://github.com/Daniel224455)
 
 ### UEFI Status
 
@@ -2797,9 +2868,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Poco-X3-Pro.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: vayu** <br>
-**Contributors: [Daniel224455](https://github.com/Daniel224455), [remtrik](https://github.com/remtrik), [Nikroks](https://github.com/N1kroks)**
+**State:** Inactive <br>
+**Codename:** vayu
+
+**Contributors:** [Daniel224455](https://github.com/Daniel224455), [remtrik](https://github.com/remtrik), [Nikroks](https://github.com/N1kroks)
 
 ### UEFI Status
 
@@ -2876,9 +2948,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/LG-Velvet.png" width="300" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: caymanslm** <br>
-**Contributors: [CodeLindro](https://github.com/leandrofriedrich/)**
+**State:** Inactive <br>
+**Codename:** caymanslm
+
+**Contributors:** [CodeLindro](https://github.com/leandrofriedrich/)
 
 ### UEFI Status
 
@@ -2957,9 +3030,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-S9.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: starqltechn** <br>
-**Contributors: [Violet](https://github.com/ghatt-o/) [Robotix](https://github.com/Robotix22/)**
+**State:** Active <br>
+**Codename:** starqltechn
+
+**Contributors:** [Violet](https://github.com/ghatt-o/) [Robotix](https://github.com/Robotix22/)
  
 ### UEFI Status
 
@@ -2985,9 +3059,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Mi-8-Pro.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: equuleus** <br>
-**Contributors: [index986](https://github.com/index986/)**
+**State:** Inactive <br>
+**Codename:** equuleus
+
+**Contributors:** [index986](https://github.com/index986/)
 
 ### UEFI Status
 
@@ -3007,9 +3082,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Mi-Mix-2S.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: polaris** <br>
-**Contributors: [Daniel224455](https://github.com/Daniel224455/), [TrustedFloppa](https://github.com/TrustedFloppa/)**
+**State:** Inactive <br>
+**Codename:** polaris
+
+**Contributors:** [Daniel224455](https://github.com/Daniel224455/), [TrustedFloppa](https://github.com/TrustedFloppa/)
 
 ### UEFI Status
 
@@ -3094,9 +3170,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Sony-Xperia-XZ1.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: poplar** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/)**
+**State:** Inactive <br>
+**Codename:** poplar
+
+**Contributors:** [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -3203,9 +3280,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/OnePlus-5.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: cheeseburger** <br>
-**Contributors: [index986](https://github.com/index986/)**
+**State:** Active <br>
+**Codename:** cheeseburger
+
+**Contributors:** [index986](https://github.com/index986/)
 
 ### UEFI Status
 
@@ -3292,9 +3370,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Nothing-Phone-1.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: spacewar** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [index986](https://github.com/index986/)**
+**State:** Inactive <br>
+**Codename:** spacewar
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [index986](https://github.com/index986/)
 
 ### UEFI Status
 
@@ -3328,9 +3407,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-A52s-5G.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: a52sxq** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [arminask](https://github.com/arminask/), People from Group** <br>
+**State:** Active <br>
+**Codename:** a52sxq
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [arminask](https://github.com/arminask/), People from Group** <br>
 
 ### UEFI Status
 
@@ -3399,9 +3479,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-11-Lite-5G-NE.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: lisa** <br>
-**Contributors: [ETCHDEV](https://github.com/ETCHDEV/), [Nikroks](https://github.com/N1kroks/), [Aistop](https://github.com/AistopGit/)**
+**State:** Active <br>
+**Codename:** lisa
+
+**Contributors:** [ETCHDEV](https://github.com/ETCHDEV/), [Nikroks](https://github.com/N1kroks/), [Aistop](https://github.com/AistopGit/), [remtrik](https://github.com/remtrik), [Arminas](https://github.com/arminask)
 
 ### UEFI Status
 
@@ -3427,36 +3508,36 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 > [!IMPORTANT]
 > Needs [Windows Drivers](https://github.com/AistopGit/windows_oem_xiaomi_lisa).
 
-| Feature              | Description           | State |
-|:---------------------|:----------------------|:-----:|
-| Internal Storage     |                       | ✅    |
-| SD Card              | SDXC cards don't work | ⚠️    |
-| Side Buttons         |                       | ✅    |
-| Proximity Sensor     |                       | ❌    |
-| Light Sensor         |                       | ❌    |
-| Accelerometer Sensor |                       | ❌    |
-| Compass Sensor       |                       | ❌    |
-| Fingerprint Sensor   |                       | ❌    |
-| Hall Sensor          |                       | ❌    |
-| NFC Sensor           |                       | ❌    |
-| Temperature Sensor   |                       | ❌    |
-| Battery              |                       | ✅    |
-| USB Host Mode        |                       | ✅    |
-| USB Device Mode      |                       | ✅    |
-| USB Power Delivery   |                       | ✅    |
-| Charging             |                       | ✅    |
-| WLAN                 |                       | ✅    |
-| CPU                  |                       | ✅    |
-| Touchscreen          |                       | ✅    |
-| Bluetooth            |                       | ✅    |
-| GPS                  |                       | ✅    |
-| Speakers             |                       | ❌    |
-| Microphone           |                       | ❌    |
-| GPU                  |                       | ❌    |
-| Camera               |                       | ❌    |
-| Mobile Data          |                       | ✅    |
-| Display              |                       | ✅    |
-| Vibration            |                       | ✅    |
+| Feature              | Description                                       | State |
+|:---------------------|:--------------------------------------------------|:-----:|
+| Internal Storage     |                                                   | ✅    |
+| SD Card              |                                                   | ✅    |
+| Side Buttons         |                                                   | ✅    |
+| Proximity Sensor     |                                                   | ❔    |
+| Light Sensor         |                                                   | ❌    |
+| Accelerometer Sensor |                                                   | ✅    |
+| Compass Sensor       |                                                   | ✅    |
+| Fingerprint Sensor   |                                                   | ❌    |
+| Hall Sensor          |                                                   | ❔    |
+| NFC Sensor           |                                                   | ❌    |
+| Temperature Sensor   | Some sensors don't work                           | ⚠️    |
+| Battery              |                                                   | ✅    |
+| USB Host Mode        |                                                   | ✅    |
+| USB Device Mode      |                                                   | ✅    |
+| USB Power Delivery   |                                                   | ✅    |
+| Charging             | Fast charging temporarily breaks host mode and PD | ✅    |
+| WLAN                 |                                                   | ✅    |
+| CPU                  |                                                   | ✅    |
+| Touchscreen          |                                                   | ✅    |
+| Bluetooth            |                                                   | ✅    |
+| GPS                  |                                                   | ✅    |
+| Speakers             |                                                   | ❌    |
+| Microphone           |                                                   | ❌    |
+| GPU                  | Has visual artifacts that cause slight lags       | ⚠️    |
+| Camera               |                                                   | ❌    |
+| Mobile Data          | SIM2 doesn't work                                 | ✅    |
+| Display              |                                                   | ✅    |
+| Vibration            |                                                   | ✅    |
 
 </td></tr>
 </table>
@@ -3479,9 +3560,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Lenovo-Tab-P11-Pro-2020.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: j706f** <br>
-**Contributors: [hyusang](https://github.com/cloudsweets/)**
+**State:** Inactive <br>
+**Codename:** j706f
+
+**Contributors:** [hyusang](https://github.com/cloudsweets/)
 
 ### UEFI Status
 
@@ -3547,9 +3629,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Poco-X3-NFC.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: surya** <br>
-**Contributors: [remtrik](https://github.com/remtrik), [Nikroks](https://github.com/N1kroks)**
+**State:** Active <br>
+**Codename:** surya
+
+**Contributors:** [remtrik](https://github.com/remtrik), [Nikroks](https://github.com/N1kroks)
 
 ### UEFI Status
 
@@ -3617,9 +3700,11 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Poco-X2.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: phoenix** <br>
-**Contributors: [remtrik](https://github.com/remtrik)**
+**State:** Active <br>
+**Codename:** phoenix <br>
+**Models:** 2
+
+**Contributors:** [remtrik](https://github.com/remtrik)
 
 ### UEFI Status
 
@@ -3640,9 +3725,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Redmi-Note-12-Pro-4G.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: sweet_k6a** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/)**
+**State:** Inactive <br>
+**Codename:** sweet_k6a
+
+**Contributors:** [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -3677,9 +3763,11 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Redmi-Note-9S.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: miatoll** <br>
-**Contributors: [N1kroks](https://github.com/N1kroks/)**
+**State:** Active <br>
+**Codename:** miatoll <br>
+**Models:** 6
+
+**Contributors:** [N1kroks](https://github.com/N1kroks/)
 
 ### UEFI Status
 
@@ -3795,9 +3883,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-A52.png" width="500" alt="Preview">
 
-**State: Active** <br>
-**Codename: a52q** <br>
-**Contributors: [arminask](https://github.com/arminask/), [N1kroks](https://github.com/N1kroks/)**
+**State:** Active <br>
+**Codename:** a52q
+
+**Contributors:** [arminask](https://github.com/arminask/), [N1kroks](https://github.com/N1kroks/)
 
 ### UEFI Status
 
@@ -3903,15 +3992,48 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 <br>
 
 <details>
+<summary><b><strong>Samsung Devices</strong></b></summary>
+
+## Samsung Galaxy Tab A9+
+
+<img align="right" src="Resources/Pictures/Samsung-Galaxy-Tab-A9+.png" width="550" alt="Preview">
+
+**State:** Active <br>
+**Codename:** gta9p
+
+**Contributors:** [Violet](https://github.com/ghatt-o/)
+
+### UEFI Status
+
+| Feature            | Description     | State |
+|:-------------------|:---------------------|:-----:|
+| Display            |                      | ✅    |
+| Internal Storage   |                      | ✅    |
+| Side Buttons       |                      | ✅    |
+| USB Host Mode      |                      | ❌    |
+| USB Device Mode    |                      | ✅    |
+| USB Power Delivery |                      | ❌    |
+| Mass Storage       |                      | ✅    |
+| SD Card            |                      | ❔    |
+| Windows Boot       |                      | ❌    |
+| Linux Boot         |                      | ❌    |
+
+</td></tr>
+</table>
+
+</details>
+
+<details>
 <summary><b><strong>Xiaomi Devices</strong></b></summary>
 
 ## Redmi Note 11 Pro 5G
 
 <img align="right" src="Resources/Pictures/Xiaomi-Redmi-Note-11-Pro-5G.png" width="550" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: veux** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [index986](https://github.com/index986/)**
+**State:** Inactive <br>
+**Codename:** veux
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [index986](https://github.com/index986/)
 
 ### UEFI Status
 
@@ -3949,9 +4071,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Redmi-10C.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: fog** <br>
-**Contributors: [Statzar](https://github.com/Statzar/)**
+**State:** Inactive <br>
+**Codename:** fog
+
+**Contributors:** [Statzar](https://github.com/Statzar/)
 
 ### UEFI Status
 
@@ -4045,9 +4168,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Redmi-Note-11.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: spes** <br>
-**Contributors: [Statzar](https://github.com/Statzar/)**
+**State:** Inactive <br>
+**Codename:** spes
+
+**Contributors:** [Statzar](https://github.com/Statzar/)
 
 ### UEFI Status
 
@@ -4143,9 +4267,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Redmi-Note-12.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: tapas** <br>
-**Contributors: [Statzar](https://github.com/Statzar/), [6adp](https://github.com/6adp/)**
+**State:** Inactive <br>
+**Codename:** tapas
+
+**Contributors:** [Statzar](https://github.com/Statzar/), [6adp](https://github.com/6adp/)
 
 ### UEFI Status
 
@@ -4262,9 +4387,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Mi-A3.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: laurel_sprout** <br>
-**Contributors: [Kernel357](https://github.com/Kernel357/)**
+**State:** Inactive <br>
+**Codename:** laurel_sprout
+
+**Contributors:** [Kernel357](https://github.com/Kernel357/)
 
 ### UEFI Status
 
@@ -4285,9 +4411,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Redmi-Note-8T.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: willow** <br>
-**Contributors: [SwedMlite](https://github.com/SwedMlite), [Robotix](https://github.com/Robotix22/), [Vicente Cortes](https://github.com/vicenteicc2008/)**
+**State:** Inactive <br>
+**Codename:** willow
+
+**Contributors:** [SwedMlite](https://github.com/SwedMlite), [Robotix](https://github.com/Robotix22/), [Vicente Cortes](https://github.com/vicenteicc2008/)
 
 ### UEFI Status
 
@@ -4346,9 +4473,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Redmi-Note-8.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: ginkgo** <br>
-**Contributors: [index986](https://github.com/index986/)**
+**State:** Inactive <br>
+**Codename:** ginkgo
+
+**Contributors:** [index986](https://github.com/index986/)
 
 ### UEFI Status
 
@@ -4392,9 +4520,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Motorola-Moto-G30.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: caprip** <br>
-**Contributors: [Vicente Cortes](https://github.com/vicenteicc2008/)**
+**State:** Inactive <br>
+**Codename:** caprip
+
+**Contributors:** [Vicente Cortes](https://github.com/vicenteicc2008/)
 
 ### UEFI Status
 
@@ -4455,9 +4584,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Motorola-Moto-G9-Power.png" width="400" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: cebu** <br>
-**Contributors: [remtrik](https://github.com/remtrik/), [hiprivsid](https://github.com/hiprivsid/)**
+**State:** Inactive <br>
+**Codename:** cebu
+
+**Contributors:** [remtrik](https://github.com/remtrik/), [hiprivsid](https://github.com/hiprivsid/)
 
 ### UEFI Status
 
@@ -4492,9 +4622,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Samsung-Galaxy-Tab-A7-LTE.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: gta4l** <br>
-**Contributors: [V6lhost](https://github.com/V6lhost/)**
+**State:** Inactive <br>
+**Codename:** gta4l
+
+**Contributors:** [V6lhost](https://github.com/V6lhost/)
 
 ### UEFI Status
 
@@ -4520,9 +4651,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Redmi-9T.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: lime** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/)**
+**State:** Inactive <br>
+**Codename:** lime
+
+**Contributors:** [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -4587,9 +4719,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Poco-M3.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: citrus** <br>
-**Contributors: [Robotix](https://github.com/Robotix22), [9.8.7.6](https://github.com/Daniel224455), [NUC](https://github.com/iNUCi), [Aistop](https://github.com/AistopGit), [All_One1](https://github.com/Ost268), [Heyylucazzz](https://github.com/heyylucazzz)**
+**State:** Inactive <br>
+**Codename:** citrus
+
+**Contributors:** [Robotix](https://github.com/Robotix22), [9.8.7.6](https://github.com/Daniel224455), [NUC](https://github.com/iNUCi), [Aistop](https://github.com/AistopGit), [All_One1](https://github.com/Ost268), [Heyylucazzz](https://github.com/heyylucazzz)
 
 ### UEFI Status
 
@@ -4674,9 +4807,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Redmi-Note-7.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: lavender** <br>
-**Contributors: [index986](https://github.com/index986)**
+**State:** Inactive <br>
+**Codename:** lavender
+
+**Contributors:** [index986](https://github.com/index986)
 
 ### UEFI Status
 
@@ -4764,9 +4898,10 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 
 <img align="right" src="Resources/Pictures/Xiaomi-Mi-Max-3.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: nitrogen** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/), [Aistop](https://github.com/AistopGit/)**
+**State:** Inactive <br>
+**Codename:** nitrogen
+
+**Contributors:** [Robotix](https://github.com/Robotix22/), [Aistop](https://github.com/AistopGit/)
 
 ### UEFI Status
 
@@ -4891,14 +5026,15 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 <details>
 <summary><b><strong>Nintendo Devices</strong></b></summary>
 
-## Nintendo Switch (2017)
+## Nintendo Switch
 
 <img align="right" src="Resources/Pictures/Nintendo-Switch.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
-**Codename: nx** <br>
-**Model: 0** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/)**
+**State:** Inactive <br>
+**Codename:** nx <br>
+**Models:** 2
+
+**Contributors:** [Robotix](https://github.com/Robotix22/)
 
 ### UEFI Status
 
@@ -4918,51 +5054,6 @@ More information on this device available at [Muyu Wiki (Xiaomi Pad 7 Pro on SM8
 </details>
 
 ---
-
-</details>
-
-<details>
-<summary><b><strong>Tegra X1+ Devices</strong></b></summary>
-
-<br>
-
-<table>
-<tr><td>
-
-> [!IMPORTANT]
-> Only 23H2 Windows Builds and Lower are able to Boot.
-
-</td></tr>
-</table>
-
-<details>
-<summary><b><strong>Nintendo Devices</strong></b></summary>
-
-## Nintendo Switch (2019)
-
-<img align="right" src="Resources/Pictures/Nintendo-Switch.png" width="500" alt="Preview">
-
-**State: Inactive** <br>
-**Codename: nx** <br>
-**Model: 1** <br>
-**Contributors: [Robotix](https://github.com/Robotix22/)**
-
-### UEFI Status
-
-| Feature            | Description       | State |
-|:-------------------|:------------------|:-----:|
-| Display            | Wrong Orientation | ⚠️    |
-| Internal Storage   |                   | ❌    |
-| Joy Cons           |                   | ❌    |
-| Side Buttons       | No Power Button   | ⚠️    |
-| USB Host Mode      |                   | ❌    |
-| USB Device Mode    |                   | ❌    |
-| USB Power Delivery |                   | ❌    |
-| SD Card            |                   | ❌    |
-| Windows Boot       |                   | ❌    |
-| Linux Boot         |                   | ❌    |
-
-</details>
 
 </details>
 
